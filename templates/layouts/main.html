@@ -55,7 +55,7 @@
             <li {% if request.endpoint == 'home' %} class="active" {% endif %}><a href="{{ url_for('home') }}">Home</a></li>
             <li {% if request.endpoint == 'about' %} class="active" {% endif %}><a href="{{ url_for('about') }}">About</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+              <a class="dropdown-toggle" data-toggle="dropdown">Features<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://medisign.herokuapp.com/AIChatBot">Medical Diagnosis Chat-Bot</a></li>
                 <li><a href="https://xrayclassify.herokuapp.com/">Pneumonia Detection</a></li>
@@ -97,7 +97,7 @@
 
   <div id="footer">
     <div class="container">
-      <p>Your Company &copy; All Rights Reserved.</p>
+      <p>Medi-Signs &copy; All Rights Reserved.</p>
       {% block footer %}{% endblock %}
     </div>
   </div>
